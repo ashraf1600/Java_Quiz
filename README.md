@@ -36,8 +36,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 # Database Connection Code:
 //
-public class DatabaseConnection {
-    public static Connection getConnection() {
+       public class DatabaseConnection {
+       public static Connection getConnection() {
         Connection connection = null;
         try {
       
