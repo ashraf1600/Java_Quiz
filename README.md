@@ -31,12 +31,16 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 # Database Connection Code:
-//
-       public class DatabaseConnection {
-       public static Connection getConnection() {
+```
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DatabaseConnection {
+    public static Connection getConnection() {
         Connection connection = null;
         try {
-      
+            // Database URL and credentials
             String url = "jdbc:mysql://localhost:3306/movie_review_app";
             String user = "root";
             String password = "your_password";
@@ -51,6 +55,7 @@ import java.sql.SQLException;
         return connection;
     }
 }
+```
 # UI Layout of the Application:
 # Signup Page:
 
