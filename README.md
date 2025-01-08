@@ -12,10 +12,6 @@ Your task is to sketch the layout or UI of this application. What tool will you 
 Frontend Design Tool:
 I will use Java Swing for designing the frontend because:
 
-It is lightweight and platform-independent.
-Swing provides a rich set of pre-built UI components such as buttons, text fields, tables, etc.
-It easily integrates with Java backend logic, making it suitable for small to medium-scale applications.
-Swing allows for event-driven programming, which simplifies user interaction handling.
 # Ans
 # Frontend Design Tool:
 I will use Java Swing for designing the frontend because:
